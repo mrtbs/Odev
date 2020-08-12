@@ -1,0 +1,13 @@
+CREATE OR REPLACE PROCEDURE public.kayitli()
+LANGUAGE 'sql'
+AS $BODY$select * FROM kayitli$BODY$;
+
+CREATE OR REPLACE PROCEDURE public.cari()
+LANGUAGE 'sql'
+AS $BODY$select * FROM cari$BODY$;
+CREATE OR REPLACE PROCEDURE public.direksiyon()
+LANGUAGE 'sql'
+AS $BODY$select * FROM direksiyon$BODY$;
+CREATE OR REPLACE PROCEDURE public.kasa()
+LANGUAGE 'sql'
+AS $BODY$select * FROM kasa$BODY$;
